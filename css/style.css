@@ -2602,11 +2602,11 @@ h6 {
 
 .tools_expert {
   padding: 20px 0px 0px 0px; }
-  .tools_expert .skill_main .skill_item {
+.tools_expert .skill_main .skill_item {
     margin-bottom: 18px; }
-    .tools_expert .skill_main .skill_item:last-child {
+.tools_expert .skill_main .skill_item:last-child {
       margin-bottom: 0px; }
-    .tools_expert   .skill_item i {
+.tools_expert   .skill_item i {
 
       padding-left: 40px;
       /* padding-right: 20px; */
@@ -2622,7 +2622,11 @@ h6 {
       font-family: "Outfit", sans-serif;
       font-weight: 500;
       color: #cad4cb;
-      margin-bottom: 7px; }
+      margin-bottom: 7px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
     .tools_expert .skill_main .skill_item .progress_br {
       border: 1px solid #eeeeee;
       padding: 5px;
